@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#bar-chart-container {
+    position: relative;
+}
+
+#bar-chart {
+    display: flex;
+    justify-content: center;
+}
+
+#title {
+    text-align: center;
+}
+
+.bar:hover {
+    fill: grey;
+}
+
+#tooltip {
+    position: absolute;
+    background-color: lightblue;
+    padding: 10px 20px;
+}
+
+.tooltip--hidden {
+    display: none;
+}
